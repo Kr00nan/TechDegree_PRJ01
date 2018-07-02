@@ -74,7 +74,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(-5deg);
 }
 .tag {
   background-color: #efefef;
@@ -100,6 +100,40 @@ header .profile-image:hover {
 }
 .card:hover {
   border-color: #a7d6df;
+}
+.panel {
+  margin: 50px 30px 0px 30px;
+  padding: 20px 40px 40px;
+  max-width: 100%;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+}
+
+h3, h4, h5 {
+  margin: 6px;
+}
+
+.family {
+  text-align: center;
+}
+
+.pics {
+  max-height: 400px;
+  max-width: 400px;
+  border: 3px solid #a7d6df;
+  border-radius: 10px;
+  box-shadow: 5px 5px 3px #ccc;
+  padding: 10px;
+  margin: 10px;
+}
+
+.commentary {
+  max-width: 830px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 ul.skills {
